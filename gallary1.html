@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Amazing Grace Furnitures - Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light gray background for a professional look */
+        }
+
+        header {
+            background-color: #2c3e50; /* Darker blue for a professional header */
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #2c3e50; /* Darker text color for the title */
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px auto;
+            max-width: 800px; /* Adjusted max-width for a more compact gallery */
+        }
+
+        .gallery-item {
+            flex: 1 1 300px;
+            margin: 10px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Slightly darker shadow for depth */
+            transition: transform 0.3s;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50; /* Footer background color */
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Gallery</h1>
+        <section class="gallery">
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="8.png" alt="Image 1">
+                    <p>Beautiful Chair</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="7.png" alt="Image 2">
+                    <p>Elegant Dining Table</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="6.png" alt="Image 3">
+                    <p>Stylish Rattan peice</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="3.png" alt="Image 4">
+                    <p>Modern Coffee Table</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="4.png" alt="Image 5">
+                    <p>Classic Rattan Chair</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Amazing Grace Furnitures</p>
+    </footer>
+</body>
+</html>
